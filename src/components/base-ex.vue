@@ -1,7 +1,7 @@
 <!-- <template></template> -->
 
 <script setup lang="ts">
-import { ref } from 'vue';
+import { ref } from "vue";
 
 // #region Props
 interface Props {
@@ -9,12 +9,12 @@ interface Props {
 }
 // #endregion Props
 const props = withDefaults(defineProps<Props>(), {
-  modelValue: '',
+  modelValue: "",
 });
 
 // #region Emits
 const emit = defineEmits<{
-  'update:modelValue': [value: Props['modelValue']];
+  "update:modelValue": [value: Props["modelValue"]];
 }>();
 // #endregion Emits
 
@@ -24,12 +24,9 @@ defineSlots<{
 }>();
 // #endregion Slots
 
-
-
 // #region Methods
 defineExpose({});
 // #endregion Methods
 </script>
 
-<style scoped lang="sass">
-</style>
+<style scoped lang="sass"></style>

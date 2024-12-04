@@ -3,19 +3,17 @@
     <div class="flex flex-col gap-4 border p-4 rounded">
       <!-- <base-checkbox
         v-model="disable"
-        label="停用按鈕"
+        label="停用按钮"
       />
 
       <base-input
         v-model="text"
-        placeholder="點擊這裡並使用 tab 將焦點轉移至按鈕後，再按下 Enter 看看"
+        placeholder="點擊這裡並使用 tab 將焦點轉移至按钮後，再按下 Enter 看看"
         class=" w-full "
       /> -->
     </div>
 
-    <div class="flex">
-      <{{kebabCase name}} />
-    </div>
+    <div class="flex"><{{kebabCase name}} /></div>
   </div>
 </template>
 
